@@ -1,0 +1,38 @@
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: amaro
+      POSTGRES_PASSWORD: senha123
+      POSTGRES_DB: pixel8bitsocial
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    environment:
+      DB_HOST: db
+      DB_PORT: 5432
+      DB_USER: amaro
+      DB_PASS: senha123
+      DB_NAME: pixel8bitsocial
+    ports:
+      - "4000:4000"
+    command: npm run dev
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    command: npm run dev
+
+volumes:
+  pgdata:
