@@ -3,12 +3,10 @@ FROM node:18
 
 WORKDIR /app
 
-# Copia apenas o package.json e package-lock.json primeiro
-# para aproveitar o cache do Docker se as dependências não mudarem
+# Copia apenas o package.json (se package-lock.json não existe, não há problema)
 COPY package.json ./
-COPY package-lock.json ./
 
-# Instala as dependências do Node.js
+# Instala as dependências do Node.js (isso vai criar o package-lock.json DENTRO do container)
 RUN npm install
 
 # Copia o restante dos arquivos da aplicação
