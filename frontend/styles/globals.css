@@ -4,11 +4,16 @@
 @tailwind utilities;
 
 /* Você pode adicionar estilos CSS personalizados aqui se precisar */
-body {
+html, body, #__next { /* Garante que o body e o Next.js div ocupem toda a altura */
+  height: 100%;
   margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  /* Garantindo um fundo escuro base que se estende por toda a página */
-  background-color: #1a202c; /* Exemplo de cor escura para o fundo principal */
+  /* Define um fundo escuro base que se estende por toda a página */
+  background-color: #1a202c; /* Cor escura para o fundo principal */
 }
 
 /* Scrollbar estilo neon (opcional, para um toque extra) */
