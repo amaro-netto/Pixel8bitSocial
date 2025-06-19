@@ -56,7 +56,6 @@ export default function Emulator() {
             </div>
           </div>
 
-          {/* Área onde o emulador será exibido */}
           <div className="mt-8 bg-gray-900 rounded-lg overflow-hidden flex justify-center items-center relative z-10" style={{ minHeight: '480px' }}>
             {consoleType === 'nes' && romFile ? (
               <iframe
