@@ -2,7 +2,10 @@
   "name": "pixel8bitsocial-frontend",
   "version": "1.0.0",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "13.4.13",
@@ -11,8 +14,8 @@
     "styled-jsx": "5.1.1"
   },
   "devDependencies": {
-    "tailwindcss": "^3.0.0",
-    "postcss": "^8.0.0",
-    "autoprefixer": "^10.0.0"
+    "tailwindcss": "^3.3.3",
+    "postcss": "^8.4.21",
+    "autoprefixer": "^10.4.14"
   }
 }
