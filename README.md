@@ -1,10 +1,15 @@
-# 🎮 Pixel8bitSocial
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/8457e5d1-7c25-4c85-8a42-c3155e8b3005" alt="Descrição da Imagem" width="300"
+</p>
+    
+---
+### 🎮 Pixel8bitSocial
 
 Bem-vindo ao **Pixel8bitSocial**! Uma rede social temática para entusiastas de jogos retrô 2D, onde os usuários podem jogar emuladores diretamente no navegador, registrar suas conquistas, exibir seu progresso e interagir com uma comunidade apaixonada.
 
 Este projeto visa recriar a nostalgia dos clássicos com um toque social e moderno.
 
----
 ![Next.js](https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
