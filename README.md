@@ -25,13 +25,11 @@ Este projeto visa recriar a nostalgia dos clássicos com um toque social e moder
 * **Emulação Web:** Jogue clássicos de consoles 2D (NES, SNES, Game Boy, GBA, Mega Drive, Master System) diretamente no navegador.
 * **Gestão de ROMs:** O projeto será configurado para usar ROMs internas (pré-definidas no servidor) para garantir a conformidade legal e a experiência.
 
-### Aviso Legal
-Não disponibilizamos ROMs de jogos ou qualquer software protegido por direitos autorais.
-
+---
+> [!CAUTION]
+> Aviso Legal - Não disponibilizamos ROMs de jogos ou qualquer software protegido por direitos autorais.
 A criação, distribuição e uso de cópias não autorizadas de jogos e softwares são ilegais e violam as leis de direitos autorais e de propriedade intelectual. Nosso objetivo é fornecer informações e discussões sobre emulação e retrogaming de forma ética e legal.
-
 Incentivamos você a respeitar os direitos dos criadores e a adquirir jogos e softwares de fontes legítimas.
-
 ---
 
 ## 🚀 Como Rodar o Projeto (Docker Compose)
